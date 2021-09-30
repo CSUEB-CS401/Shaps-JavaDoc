@@ -1,0 +1,16 @@
+package edu.csueastbay.cs401;
+
+public class Rectangle extends Shape{
+    private double width;
+    private double height;
+
+    public Rectangle(double width, double height, String color) {
+        super(color);
+        this.width = width;
+        this.height = height;
+    }
+
+    public double area() {
+        return width * height;
+    }
+}
