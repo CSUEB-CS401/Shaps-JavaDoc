@@ -34,8 +34,7 @@ public abstract class Shape implements Comparable<Shape>, Hideable {
     }
 
     public Point getPoint() {
-        Point new_point = new Point(point.getX(), point.getY());
-        return new_point;
+        return new Point(point.getX(), point.getY());
     }
 
     public abstract double area();
